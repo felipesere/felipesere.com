@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8000"
+baseURL = "https://felipesere-blog.herokuapp.com/"
 languageCode = "en-us"
 title = "Felipe's Path to Mastery"
 theme = "tranquilpeak"
