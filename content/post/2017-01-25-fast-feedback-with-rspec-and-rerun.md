@@ -2,7 +2,7 @@
 title: Fast feedback with RSpec and rerun
 date: 2017-01-25 20:31:36
 categories: []
-tags: [testing]
+tags: ["testing"]
 ---
 
 Recently [this](https://twitter.com/CharlotteBRF/status/824251562428076034) tweet scrolled across my time-line about using `--fail-fast`

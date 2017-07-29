@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Felipe's Path to Mastery"
 theme = "tranquilpeak"
 
-paginate = 7
+paginate = 10
 canonifyurls = true
 
 [author]
@@ -54,6 +54,7 @@ canonifyurls = true
 
 [params]
 
+  dateFormat = "2 January 2006"
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = false
 
