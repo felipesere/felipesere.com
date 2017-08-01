@@ -1,6 +1,6 @@
 ---
 title: "Experiment To Fix Date"
-date: "01-08-2017T22:40:04Z"
+date: "2017-08-01"
 categories: []
 tags: ["testing", "agile", "elixir"]
 ---
