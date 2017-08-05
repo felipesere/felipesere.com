@@ -1,5 +1,6 @@
 baseURL = "http://www.felipesere.com"
 languageCode = "en-us"
+DefaultContentLanguage = "en-us"
 title = "Felipe's Path to Mastery"
 theme = "tranquilpeak"
 
@@ -53,8 +54,7 @@ canonifyurls = true
   url = "/index.xml"
 
 [params]
-
-  dateFormat = "January 2, 2006"
+  dateFormat = "02 January 2006"
   # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
   clearReading = false
 
