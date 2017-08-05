@@ -3,11 +3,8 @@ addons:
     packages:
       - python-pygments
 
-# Clean and don't fail
-install:
-  - rm -rf public || exit 0
 script:
-  - binary/hugo --baseURL "http://felipesere.com"
+  - binary/hugo --baseURL "http://felipesere.com"  --destination .
 
 deploy:
   provider: pages
