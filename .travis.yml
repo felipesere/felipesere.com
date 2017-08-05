@@ -4,7 +4,7 @@ addons:
       - python-pygments
 
 script:
-  - binary/hugo --baseURL "http://felipesere.com"  --destination .
+  - binary/hugo --baseURL "http://www.felipesere.com"  --destination .
   - rm -rf content
 
 deploy:
