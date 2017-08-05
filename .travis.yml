@@ -5,6 +5,7 @@ addons:
 
 script:
   - binary/hugo --baseURL "http://felipesere.com"  --destination .
+  - rm -rf content
 
 deploy:
   provider: pages
