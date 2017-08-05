@@ -1,3 +1,14 @@
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+script:
+  - binaries/hugo
+
 deploy:
   provider: pages
   skip_cleanup: true
