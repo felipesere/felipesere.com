@@ -7,7 +7,7 @@ addons:
 install:
   - rm -rf public || exit 0
 script:
-  - binaries/hugo --baseURL "http://felipesere.com"
+  - binary/hugo --baseURL "http://felipesere.com"
 
 deploy:
   provider: pages
