@@ -16,6 +16,9 @@ canonifyurls = true
   gravatarEmail = "felipe@8thlight.com"
   # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "felipesere"
+  email = "felipesere@gmail.com"
+  github = "felipesere"
+
 
 # Menu Configuration
 [[menu.main]]
@@ -45,6 +48,27 @@ canonifyurls = true
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
   url = "https://github.com/felipesere"
+
+[[menu.links]]
+  weight = 0
+  identifier = "twitter"
+  name = "Twitter"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+  url = "https://twitter.com/felipesere"
+
+[[menu.links]]
+  weight = 0
+  identifier = "email"
+  name = "Email"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
+  url = "mailto:felipesere@gmail.com"
+
+[[menu.links]]
+  weight = 0
+  identifier = "keybase"
+  name = "Keybase"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-user-secret\"></i>"
+  url = "https://keybase.io/felipesere"
 
 [[menu.misc]]
   weight = 0
