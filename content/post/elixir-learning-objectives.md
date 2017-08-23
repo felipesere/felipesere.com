@@ -8,7 +8,7 @@ tags: [fp,oop, elixir]
 
 title: "Elixir Learning Objectives"
 date: 2017-08-23T22:44:19+01:00
-draft: true
+draft: false
 ---
 
 Over the last week I've picked up a project I had sidelined for a while.
