@@ -4,6 +4,7 @@ addons:
       - python-pygments
 
 script:
+  - binary/hugo version
   - binary/hugo --baseURL "http://www.felipesere.com"  --destination .
   - rm -rf content
 
