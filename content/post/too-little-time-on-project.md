@@ -32,7 +32,7 @@ I found that as I was more focused on getting features done, I spent less time i
 As such, there is currently too much code creating different perspectives of the same data to be used in different places.
 There is so much effort spent in extracting, mapping, inverting, sorting the same data.
 This highlights to me that my code is very _mechanical_. The abstractions are so shallow - revealing loads of `Strings` and `Atoms` and `keys` and `maps` - that they could almost be absent.
-Good abstractions should let the reading flow through the application, giving them the right information at the right time.
+Good abstractions should let the reader flow through the application, giving them the right information at the right time.
 If the reader is interested in some specific detail, they should should be able breeze into the module, skipping all the other high-level stuff.
 
 # Naive, not simple
