@@ -5,6 +5,7 @@ categories: []
 tags: []
 keywords: []
 #thumbnailImage: //example.com/image.jpg
+#coverImage: //example.com/image.jpg
 ---
 
 <!--more-->
