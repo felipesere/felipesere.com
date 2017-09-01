@@ -2,7 +2,7 @@
 title: "Too Little Time on a Project"
 date: 2017-08-30T21:50:48+01:00
 categories: []
-tags:       [personal design project]
+tags:       [personal, design, project]
 keywords:   []
 coverImage: /images/dunes-264616_1920.jpg
 coverSize: partial
