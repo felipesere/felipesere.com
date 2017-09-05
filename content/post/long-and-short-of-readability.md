@@ -51,7 +51,7 @@ The degree of decomposition is often brought in to test the smaller unit code.
 
 
 ## Meeting in the middle
-For both ends of the readability spectrum it's hard to the others code and it is even harder to understand the reasoning behind it.
+For both ends of the readability spectrum it's hard to read the others code and it is even harder to understand the reasoning behind it.
 The key is not to give in to either extreme, but to understand where the balance lies.
 Just enough to accept the code and not resist it irrationally.
 If navigating a LEGO code base is hard, leave some detailed READMEs in place to help skeptics find the right place for a class.
