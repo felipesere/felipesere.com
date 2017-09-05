@@ -14,12 +14,12 @@ Today we talked through a rewrite of a largish chunk of legacy code.
 This code had been written over the past few years, with a fair amount of hard-codings, rules, and decisions baked in.
 Precisely those hard-codings, implicit rules, divergent decisions were the reason we proceeded with a rewrite.
 Our preferred approach was radically different making a straight refactoring uneconomical.
-Plus, our use-case was isolated enough that we’d get a first-proving ground without impacting current users.
+Plus, our use-case was isolated enough that we could afford testing our ideas without impacting current users.
 
 <!--more-->
 
 So much for the context.
-An interesting observation made during our show and tell was that the code was hard to read and consequently debug.
+An interesting observation made during our show and tell was that the code was hard to read and consequently to debug.
 That struck me as odd.
 My reaction to the old code was exactly the same: _"Hmm. I am not sure I know what I’m looking at here… where would the… hmmm?"_
 I believed our code to be obviously superior (“obvious” is a risky assumption for another blog-post day!), as we had cleanly separated the core algorithm (transforming a large data-structure) from specific hard-codings, rules, and decisions.
@@ -44,15 +44,15 @@ These developers will favor the ability to immediately answer detailed questions
 These tend to be developers coming from high-level languages with a strong background in testing, like Ruby, JavaScript or a functional language like Haskell or Clojure.
 They enjoy decomposing a problem into many small sub-problems that get composed back to solve the whole.
 “Reuse” and “abstraction” is their creed.
-The goal is two-fold: avoid restating the same concept twice in the code-base and maximise the signal-to-noise ratio in a file by pushing unnecessary details away.
+The goal is two-fold: avoid restating the same concept twice in the codebase and maximise the signal-to-noise ratio in a file by pushing unnecessary details away.
 They will enjoy formulating abstractions upon abstractions, putting a significant amount of effort into module, class, method and variable names.
 To cope with the multitude of files, they are very quick to navigate a hierarchy of types or files, often jumping between multiple files to solve a single problem.
 The degree of decomposition is often brought in to test the smaller unit code.
 
 
 ## Meeting in the middle
-For both ends of the readability-spectrum, it's hard to the other ends and code and it's even harder to understand their reasoning.
-The key is not to give in to either extreme, but to understand what would help the other end get a little more comfortable.
+For both ends of the readability spectrum it's hard to the others code and it is even harder to understand the reasoning behind it.
+The key is not to give in to either extreme, but to understand where the balance lies.
 Just enough to accept the code and not resist it irrationally.
 If navigating a LEGO code base is hard, leave some detailed READMEs in place to help skeptics find the right place for a class.
 Maybe reference the test cases that show the strengths (and drawbacks?) of the abstractions.
