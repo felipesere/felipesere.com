@@ -9,7 +9,7 @@ canonifyurls = true
 
 [author]
   name = "Felipe Sere"
-  bio = "Software crafter at 8th Light London"
+  bio = "Software Crafter at 8th Light London"
   job = "Software Crafter"
   location = "London"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
