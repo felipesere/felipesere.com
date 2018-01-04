@@ -14,7 +14,7 @@ I am currently experimenting with porting a few Angular components over to ELM t
 
 But this time all went smooth. Here is the code to read some data from an endpoint and parsing the resulting JSON:
 
-{{< highlight haskell >}}
+{{< highlight haskell "linenos=true" >}}
 getData : Cmd Msg
 getData =
   let
