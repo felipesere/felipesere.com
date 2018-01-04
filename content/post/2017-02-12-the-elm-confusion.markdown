@@ -14,7 +14,7 @@ I am currently experimenting with porting a few Angular components over to ELM t
 
 But this time all went smooth. Here is the code to read some data from an endpoint and parsing the resulting JSON:
 
-``` elm
+{{< highlight haskell >}}
 getData : Cmd Msg
 getData =
   let
@@ -22,16 +22,16 @@ getData =
       request = Http.get url Data.decode
   in
       Http.send NewData request
-```
+{{< / highlight >}}
 
 The focus point of this post will be that function and the inconspicuous NewData.NewData is a custom union type that represents what messages my application will react to:
 
-```haskell
+{{< highlight haskell >}}
 type Msg
   = MorePeople
   | NewData (Result Http.Error Response)
 
-```
+{{< / highlight >}}
 
 The above code was just happily living in the initial **App.elm** file, which was fine for the beginning.
 
@@ -41,7 +41,7 @@ The challenge I set myself was to separate the concern _"getting data from a rem
 
 Naive as I was, I just moved the `getData` function over to the **Data.elm** file (_a poor name in hindsight_) and fixed some of the imports. Sadly, the compiler was not happy about this:
 
-```sh
+{{< highlight sh >}}
 Error in ./src/Main.elm
 Module build failed: Error: Compiler process exited with error Compilation failed
 -- NAMING ERROR ------------------------------------------------- ./src/Data.elm
@@ -60,13 +60,13 @@ Cannot find type `Msg`
 
 16| getData : Cmd Msg
                   ^^^
-```
+{{< / highlight >}}
 
 OK. I can understand that. I've obviously not imported `Msg` and by extension `NewData`. Hmm.. That type lives in the **App** module, which imports the **Data** module, which would import the **App** module, which imports… argh. Circular dependency.
 
 Still on the naive path, I thought I could just extract `Msg` into a parameter of the function. That move made sense to me:  the **Data** module should just retrieve the data and not worry about how the main **App** will continue to process it. So this is what I thought I'd need:
 
-```haskell
+{{< highlight haskell >}}
 getData : msg -> Cmd msg
 getData msg =
   let
@@ -74,11 +74,11 @@ getData msg =
       request = Http.get url decode
   in
       Http.send msg request
-```
+{{< / highlight >}}
 
 As you can see, the function now takes a parameter and should be invoked as `Data.getData NewData` and produce a `Cmd Msg` . Oh, how nice that would have been. The compiler and I had a slight disagreement about the correctness of this code:
 
-```bash
+{{< highlight sh >}}
 Module build failed: Error: Compiler process exited with error Compilation failed
 -- TYPE MISMATCH ------------------------------------------------ ./src/Data.elm
 
@@ -95,7 +95,7 @@ But it is:
     msg
 
 Hint: It looks like a function needs 1 more argument.
-```
+{{< / highlight >}}
 
 Hmm? `send` expects a function that takes a `Result` with an `Http.Error` and something (that is the '**a**' ) over to `msg`?  That's odd. I had to double check that I had not deleted more than I wanted since all I had really done was introducing a new parameter.
 
@@ -103,7 +103,7 @@ Hmm? `send` expects a function that takes a `Result` with an `Http.Error` and so
 
 It took me a while to grok what was going on here. I kept staring at it and thinking _"where is that function coming from?"_. My first step was to just take what the compiler was saying for granted and changing the signature to match the error.
 
-```haskell
+{{< highlight haskell >}}
 getData : (Result Http.Error a -> msg) -> Cmd msg
 getData msg =
   let
@@ -111,7 +111,7 @@ getData msg =
       request = Http.get url decode
   in
       Http.send msg request
-```
+{{< / highlight >}}
 
 Which lead to an error about send not really liking a `Result Http.Erro`r a and preferring `Result Http.Error Response`. Replacing that `a` with a `Response` made everything snap into motion. Bare with me.
 
