@@ -13,9 +13,7 @@ pygmentsUseClasses = true
   bio = "Software Crafter at 8th Light London"
   job = "Software Crafter"
   location = "London"
-  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "felipe@8thlight.com"
-  # Your Twitter username without the @. E.g : thibaudlepretre
   twitter = "felipesere"
   email = "felipesere@gmail.com"
   github = "felipesere"
@@ -87,7 +85,7 @@ pygmentsUseClasses = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Felipes path to mastery"
+  description = "Felipes Path to Mastery"
 
   # Define the behavior of the sidebar
   # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
