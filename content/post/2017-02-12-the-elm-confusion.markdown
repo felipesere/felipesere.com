@@ -26,7 +26,7 @@ getData =
 
 The focus point of this post will be that function and the inconspicuous NewData.NewData is a custom union type that represents what messages my application will react to:
 
-{{< highlight haskell >}}
+{{< highlight haskell "linenos=true" >}}
 type Msg
   = MorePeople
   | NewData (Result Http.Error Response)
@@ -66,7 +66,7 @@ OK. I can understand that. I've obviously not imported `Msg` and by extension `N
 
 Still on the naive path, I thought I could just extract `Msg` into a parameter of the function. That move made sense to me:  the **Data** module should just retrieve the data and not worry about how the main **App** will continue to process it. So this is what I thought I'd need:
 
-{{< highlight haskell >}}
+{{< highlight haskell "linenos=true" >}}
 getData : msg -> Cmd msg
 getData msg =
   let
@@ -103,7 +103,7 @@ Hmm? `send` expects a function that takes a `Result` with an `Http.Error` and so
 
 It took me a while to grok what was going on here. I kept staring at it and thinking _"where is that function coming from?"_. My first step was to just take what the compiler was saying for granted and changing the signature to match the error.
 
-{{< highlight haskell >}}
+{{< highlight haskell "linenos=true" >}}
 getData : (Result Http.Error a -> msg) -> Cmd msg
 getData msg =
   let
