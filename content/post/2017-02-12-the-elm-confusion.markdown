@@ -39,7 +39,7 @@ The challenge I set myself was to separate the concern _"getting data from a rem
 
 ### Naive approach
 
-Naive as I was, I just moved the `getData` function over to the **Data.elm** file (_a poor name in hindsight_) and fixed some of the imports. Sadly, the compiler was not happy about this:
+Naive as I was, I just moved the `getData` function over to the **Data.elm** file (_a poor name in hindsight_) and fixed some imports. Sadly, the compiler was not happy about this:
 
 {{< highlight sh >}}
 Error in ./src/Main.elm
@@ -62,9 +62,9 @@ Cannot find type `Msg`
                   ^^^
 {{< / highlight >}}
 
-OK. I can understand that. I've obviously not imported `Msg` and by extension `NewData`. Hmm.. That type lives in the **App** module, which imports the **Data** module, which would import the **App** module, which imports… argh. Circular dependency.
+OK. I can understand that. I've obviously not imported `Msg` and by extension `NewData`. Hmm... That type lives in the **App** module, which imports the **Data** module, which would import the **App** module, which imports… argh. Circular dependency.
 
-Still on the naive path, I thought I could just extract `Msg` into a parameter of the function. That move made sense to me:  the **Data** module should just retrieve the data and not worry about how the main **App** will continue to process it. So this is what I thought I'd need:
+While still on the naive path, I thought I could just extract `Msg` into a parameter of the function. That move made sense to me:  the **Data** module should just retrieve the data and not worry about how the main **App** will continue to process it. So this is what I thought I'd need:
 
 {{< highlight haskell "linenos=true" >}}
 getData : msg -> Cmd msg
@@ -76,7 +76,7 @@ getData msg =
       Http.send msg request
 {{< / highlight >}}
 
-As you can see, the function now takes a parameter and should be invoked as `Data.getData NewData` and produce a `Cmd Msg` . Oh, how nice that would have been. The compiler and I had a slight disagreement about the correctness of this code:
+As you can see, the function now takes a parameter and should be invoked as `Data.getData NewData` and produce a `Cmd Msg`. Oh, how nice that would have been. The compiler and I had a slight disagreement about the correctness of this code:
 
 {{< highlight sh >}}
 Module build failed: Error: Compiler process exited with error Compilation failed
@@ -97,7 +97,7 @@ But it is:
 Hint: It looks like a function needs 1 more argument.
 {{< / highlight >}}
 
-Hmm? `send` expects a function that takes a `Result` with an `Http.Error` and something (that is the '**a**' ) over to `msg`?  That's odd. I had to double check that I had not deleted more than I wanted since all I had really done was introducing a new parameter.
+Hmm? `send` expects a function that takes a `Result` with an `Http.Error` and something (that is the '**a**') over to `msg`?  That's odd. I had to double check that I had not deleted more than I wanted since all I had really done was introducing a new parameter.
 
 ### Understanding and reasoning
 
@@ -113,8 +113,8 @@ getData msg =
       Http.send msg request
 {{< / highlight >}}
 
-Which lead to an error about send not really liking a `Result Http.Erro`r a and preferring `Result Http.Error Response`. Replacing that `a` with a `Response` made everything snap into motion. Bare with me.
+This lead to an error about send not really liking a `Result Http.Error` a and preferring `Result Http.Error Response`. Replacing that `a` with a `Response` made everything snap into motion. Bare with me.
 
-The `msg` parameter of the above function definition is supposed to be the message type that I wanted to abstract away from. The one variant that I had there initially is `NewData (Result Http.Error Response)`. That contains all the elements - though slightly rearranged - as the function that is passed as the first parameter to `getData`. And that is it! `NewData` is not an enum variant like in Java or Rust, it's a **type constructor**! It is a function that takes a `Result Http.Error Response` and produces a new instance of `Msg`. Spelling that out in Elm is `(Result Http.Error Response -> Msg)`. To not depend on the type itself, it is extracted both in the function and the resulting`Cmd msg`.
+The `msg` parameter of the above function definition is supposed to be the message type that I wanted to abstract away from. The one variant that I had there initially is `NewData (Result Http.Error Response)`. That contains all the elements – though slightly rearranged – as the function that is passed as the first parameter to `getData`. And that is it! `NewData` is not an enum variant like in Java or Rust, it's a **type constructor**! It is a function that takes a `Result Http.Error Response` and produces a new instance of `Msg`. Spelling that out in Elm is `(Result Http.Error Response -> Msg)`. To not depend on the type itself, it is extracted both in the function and the resulting`Cmd msg`.
 
 This post might some long-winded followed by a very quick conclusion. Keep in mind, it took me a few hours and attempts to get to the point where it all `clicked`. Then it was super easy. In hindsight, if I had just followed the compiler maybe the pieces would have fallen into place faster. Live and learn!
