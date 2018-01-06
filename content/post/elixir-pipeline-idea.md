@@ -96,7 +96,7 @@ end
 Here I'd maybe split the configuration of the pipeline into sections that are the same across all requests and sections that
 require data from the request itself.
 I'd still have the notion of a `source`, just that this one comes from the `WebAPISource` and contains the rules on how to convert `params` into whatever flows through the pipeline.
-Using a `through(PlugEnhancer, plug: plug)` I'd enhance the pipeline with any details from the `plug` itself, such as values of heaers or hostnames or timestamps.
+Using a `through(PlugEnhancer, plug: plug)` I'd enhance the pipeline with any details from the `plug` itself, such as values of headers or hostnames or timestamps.
 
 A `Scheduler` would then take the pipe and run it. This is also a good expansion point to provide different ways of running the pipe.
 Maybe we don't care about the result and can do something like `Scheduler.run_later(pipeline)` or maybe `Scheduler.run(pipeline, at: :fullhour)`.
