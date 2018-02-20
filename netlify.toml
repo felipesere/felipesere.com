@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+command = "hugo --baseURL "https://www.felipesere.netlify.com"  --destination public"
+
+[context.production.environment]
+HUGO_VERSION = "0.36"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.36"
