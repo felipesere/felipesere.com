@@ -16,13 +16,13 @@ Somebody somewhere must have left those RTP feeling happy and confident in the p
 Uncertainty is an important factor when planning. Not only is there uncertainty on how to execute a given task, but there is also uncertainty on whether to execute it at all.
 What needs to happen before it, or whether it needs to be re-thought. Let's put the uncertainty on a graph against the time we intend to execute on the plans:
 
-![Plans made for the distant future have more uncertainty]({{ "images/doubt-and-plans.jpg" | prepend: site.baseurl }})
+![Plans made for the distant future have more uncertainty](/images/doubt-and-plans.jpg)
 
 Plans made for the next couple of days are fairly certain, while plans for things months from now are pretty much anyone's guess.  Think about the last 5-6 months of your last project: requirements changed, deadlines moved, earlier tasks unearthed a new set of challenges or unexpected opportunities. All of this will put your perfectly drawn Gantt chart out of whack.
 
 Let's return to the RTP, where we planned our next 4-5 months of development, cramming each iteration with stories until they are full. The image below shows a fictional team board, with the necessary stories for the next 6 iterations, overlayed by a red line showing the increasing doubts as plans are further in the future:
 
-![Stories within a  release, with the doubt overlayed]({{ "images/doubt-story-board.PNG" | prepend: site.baseurl }})
+![Stories within a  release, with the doubt overlayed](/images/doubt-story-board.PNG)
 
 The color coding should show how at risk these stories are. From the top left (urgent and critical) in blue to the bottom right (neither urgent nor important) in red. The yellow stories are somewhere in between. An interesting observation is that the top story in iteration 3 is blue, while the third and fourth stories in iteration 2 are yellow. The blue story in iteration 3 is going to be the highest priority in that iteration, while the other two yellow ones are a low priority, meaning they could be dropped or changed. Now keep in mind, we are still planning ahead. We have not completed any of the stories.
 
@@ -32,7 +32,7 @@ So how should we plan? Many, many, many small plans for a near-future horizon. C
 
 To make the effect of many smaller plannings clearer, let's see how they fare with the uncertainty. The next image shows three simplified views of the board, once before the first, second, and third iteration.
 
-![Smaller, more frequent iteration plannings.]({{ "images/multiple-iterations-planning.jpg" | prepend: site.baseurl }})
+![Smaller, more frequent iteration plannings.](/images/multiple-iterations-planning.jpg)
 
 As you can see, the planning horizon was kept short: next iteration and a story or two for the iterations after that. Only the current iteration was packed with stories. All other iterations were left with some space, giving the team some breathing room to react to new information. Important stories or features which the team had to address at some point (important, but not urgent) were put on the board, but their iterations definitely not filled.
 
