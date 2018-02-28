@@ -17,7 +17,7 @@ The user story backlog is linear so that the team has an obvious point from wher
 
 With this in mind we can compare the stories along those three axes and come up with different ways of sorting our backlog, which in turn reflect upon our business priorities and project phase.
 
-![Contemplating user stories]({{ "images/contemplating-user-stories.jpg" | prepend: site.baseurl }})
+![Contemplating user stories](/images/contemplating-user-stories.jpg)
 
 ### Reward driven backlog
 
