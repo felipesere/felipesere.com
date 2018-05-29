@@ -1,12 +1,16 @@
 ---
-title: "Path 2 Mastery Application"
+title: "Path 2 Mastery App"
 date: 2018-05-15T21:48:33+01:00
 categories: []
-tags: []
+tags: [personal, idea]
 keywords: []
-coverImage: /images/Light-bulb.jpg
+coverImage: /images/p2m-title-image.jpg
 coverSize: partial
 coverMeta: out
+clearReading: true
+showSocial: false
+showTags: true
+showPagination: true
 ---
 
 Ever since I joined 8th Light 4 years ago as an apprentice, our apprenticeship has been chaning.
@@ -128,62 +132,3 @@ All three of these play a key role in instilling our values and keeping our appr
 The way I imagine the workflow would be to break a module into multiple stories in Artisan during the apprenticeship and marking a module as done when both mentor and apprentice agree
 that the outputs have been delivered and the outcomes shown.
 There is enough wiggle-room there to allow the pair to individualise as needed.
-
-# OTHER NOTES I MIGHT OR MIGHT NOT USE
-
-## Surface learning vs Deep learning
-
-(_John Biggs_)
-People develop different learning styles
-There are two broad learning styles, surface and deep learning.
-
-Students who adopt a surface learning style study to earn a qualification for a job, putting in sufficient effort to pass an exam and stay out of trouble.
-These students will focus on collecting details and disjointed facts and committing them to memory. If they can recollect enough, they will stay out of trouble.
-
-Students who adopt a deep learning style will come to a lecture with previous knowledge and questions, will connect what is being thaught with that they alredy know and reflect on
-on the significance of it. "They virtually teach themselves"
-
-Does this apply to our apprentices too? ~ Meh writing
-
-We want to get people to have deep knowledge of software development.
-DIfferent kinds of learnings (unstructured, structured, multistructured, hierarchical, abstract) applied to code.
-A parallel can be drawn to what solutions to problems come up with, what kind of problems do they see/expect (effort, structure, domain, business,...) and what strategies they can apply (effort, documentation, structure, tools, domain)
-
-thinking this way made me realise we have to distinct problems that manifest:
-* we have a spread of talent in the apprenticeship, but only a single curriculum
-* our teaching, while personal and "high-touch", does not cater for learning styles - we currently don't guide people to higher forms of learning
-
-HOW DOES THIS MATTER TO P2M
-HOW DOES THIS IMPACT P2M? What changes? What is worth highlighting?
-
-Understand that there are different learning styles coming into the apprenticeship.
-Cover a range of exercise styles, aiming for high-level/active engagement rather than low-level/passive engagement.
-
-There should be a range of exercises at various levels of enagement:
- * "just" building something specific
- * working towards a non-functional aspect, such as performance, scalability, domain-expressiveness
- * transferring knowledege to a new problem set (change language, change context,...)
- * relating to others
-
-
-## Outputs, Outcomes, and Context
-
-Maybe even impact?
-
-A recurring complaint from the apprentices is that they don't know what is expected of them.
-From my personal experience, I'd leave certain bits in the dark to have my apprentice figure out, maybe even stumble slighlty and learn to pick yourself back up.
-For example underestimating the effort needed, or having to learn new things,...
-
-The difficulty comes when the approach in working with exercises is carried forward without the mentor really understanding the outcome that is desired.
-
-Exercises should as such state a few things very clearly:
-* output: what tangible things the apprentice is expected to deliver. Maybe some tests, or some code, or a blog post, or a talk etc etc...
-* outcome: What is the apprentice expected to *learn* from this.
-  From J. Biggs, this is best expressed in verbs. This is where most of our effort as mentors should be in.
-  Its perfectly fine (and expected!) for multiple exercises to have the same outcome, to allow for many differnet learning styles.
-* context: Where does this exercise fit into? Ideally some work-related aspects, but could also be some grouping of exercises
-
-
-## Individual, yet consistent
-
-
