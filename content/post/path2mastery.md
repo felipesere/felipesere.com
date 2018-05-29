@@ -9,57 +9,80 @@ coverSize: partial
 coverMeta: out
 ---
 
-
-Ever since I joined 8th Light 4 years ago as an apprentice, our apprenticeship has slightly changed.
+Ever since I joined 8th Light 4 years ago as an apprentice, our apprenticeship has been chaning.
 Someitmes it had to adapt to the needs of the mentor being on client site most of the week.
-Or it had to adjust to the skills and talents the apprentice brought with them.
-Most of these adjustments have not touched the fundamental formula of the apprenticeship though.
-As such, some aspects feel dusted and dated.
-I have an idea for some broader changes, that in hindsight, will just make more explict what to implicitly do already.
+Or it had to adjust to the skills and talents the apprentices brought with them.
+I have a few ideas to highlight learning outcomes, provide more structure, yet keep the apprenticeship individual.
+And yes, this will bet yet-another-app.
 
 <!--more-->
 
 # Perceived changes and new challenges
 
-Before we go into I feel we could do better, it is important to understand some of the short comings that have been reported by apprentices and mentors a like.
+Before we go into I feel we could do better, it is important to understand some of the short comings that have been mentioned.
 
 For apprentices a big issue is the anxiety due to uncertainty they face around the apprenticeship.
-This revolves around questions like "Am I learning fast enough?" or "What are milestones I need to complete before my graduation?" and "What will I be doing next week?". 
+This revolves around questions like "Am I learning fast enough?" or "What are milestones I need to complete before my graduation?" and "What will I be doing next week?".
 There is also uncertainty in the individual tasks and exercises they are asked to do.
-I have often heared apprentices wondering what _really_ they should be getting from an exercise, or complaints that they don't _really_ know what they are supposed to do.
-These things make the apprenticeship harder and more insecure, but also means that given the apprentice graduates, they will not be 100% confident _why_ they did certain things.
-Cargo cuting mentors are the product of this uncertainty.
+I have often hear apprentices wondering what they should _really_ be getting from an exercise, or complaints that they don't _really_ know what they are supposed to do.
+My hunch is that a degree of cargo culting from us mentors and a broader range of experiences (from career changers without programming background to professional engineers with 2-3 years experience) is reinforcing this feeling of anxiety.
 
-For mentors, life isn't any easier.
-They need to balance the everyday client struggles with finding time and space to mentor their apprentice(s).
-Most of our mentors are now onsite at a client engagement and as such weekly check-ins are done either remotely, later in the day after an extra commute, or crammed into a busy Friday afternoon.
+For us mentors, life isn't any easier.
+We need to balance the everyday client struggles with finding time and space to mentor their apprentice(s).
+More and more of our mentors are now onsite at a client engagement and as such weekly check-ins are done either remotely, later in the day, or crammed into a busy Friday afternoon.
 This leaves very little leeway to find the right exercise that will push and challenge the apprentices to gain new insights.
 Unless there is some strong will, there is a good chance mentors will fall back to exercises and reading material from their own apprenticeship.
+There is a current trend to try more "application centric" exercises rather than varying constraints on the same problem, and we should capitalize on these ideas.
 
 # Explicit is the new implict!
 
 During the apprenticeship, there are a few things we need to keep in balance:
 
-* Everybody should have the same introduction into the company. This includes things like getting an email address, signing into Slack, and creating a Pull Request to add themselves to our website.
- But there is more, which not every mentor is aware of as things have been changing. From an admin site we need to make sure they sign our employee handbook, have access to our time off tracker, are made aware of our code of conduct, and know where to book time off. 
- There are also values and principles _of the apprenticeship itself_ that need to be conveyed, such as asking for help and providing it, learning to handle ambiguity, regular writing and why, etc.
+* Everybody should have the same introduction into the company and apprenticeship.
+  This includes things like getting an email address, signing into Slack, being introduced to everybody, and signing our employee handbook and code of conduct.
 
-* Every apprentice is different, comes form a different background, and has a different trajectory. Realizing this means that we need to be able to tailor each apprenticeship to the apprentice and their learning style.
+* Every apprentice is different, comes form a different background, and has a different trajectory.
+  Realizing this means that we need to be able to tailor each apprenticeship to the apprentice and their learning style.
 
-* We have a common, shared set of values that we want all our graduating crafters to live up to. Throughout their apprenticeship we need to ensure to instill these, no matter what path they take on.
+* We have a common, shared set of values that we want all our graduating crafters to live up to.
+  Throughout their apprenticeship we need to ensure to instill these, no matter what path they take on.
 
 A lot of this _implicit_ today.
-For example, it takes apprentices weeks or months to get on the site, because its considered more of a side-task.
-Also, not all apprentices are aware of our sick-time policy, as it was only introduced recently (but is probably in the staff handbook).
-Finally, the position we take on as crafters - whether leaning more towards a consultant/coach or highly skilled engineer - is also not settled (not that it needs to!) and leads to quetsions towards the end of the apprenticeship. 
+For example, it takes apprentices weeks to appear on our website, because its considered more of a side-task of... the mentors? the apprentice?
+Or the purpose of having apprentices write blog posts is mostly implied. Sometimes its to improve the writing skills, sometimes its to emulate client communication, and often its
+to allow the mentor gain insight into the apprentices thinking.
 
 The best way I can see this working is in making more and more of the apprenticeship explict, somehow codefied.
 The trick will be to make it codified, but flexible.
 Broadly applicable, but custom for each apprentice.
 
 
-# An app for mentors
+# The rough outine
 
+The general idea is to codify the exercises we currently do ad-hoc into _modules_.
+These _modules_ will provide a fairly rigid structure in how they represented to the apprentices.
+The rigid structure is intented to both make each module more predictable (repretition helps!) and to force us mentors to think about certain teaching aspects (mentioned later) and make them _explicit_.
+
+At the beginning of the apprenticeship there would be a set of modules that are predefined and are the same for all apprentices.
+These form a kind of tutorial, gradually introducing our values, tools, and processes. And cirtically: ensuring all our bases are covered.
+This would be the place where we ensure the apprentice has all the tools, is aware of the critical processes, and knows about the shared goal and values of the apprenticeship.
+
+Following on from the initial tutorial, the mentor and apprentice will be presented with a buffet-like set of modules _they can choose from_ to tackle.
+This is where the individual apprenticeship emerges. The apprentie can look around spot things they'd be keen on trying, w
+
+
+
+# For the mentors
+
+Form the above things, there are a few things that I'd like to tackle from a mentor perspective, that in my view are low-hanging fruit.
+The initial steps into the apprenticeship should made expl
+
+
+# For apprenices
+
+# Embedding it in our culutre
+
+# Reinforce collaboration
 
 
 # Surface learning vs Deep learning
