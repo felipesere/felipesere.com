@@ -79,10 +79,20 @@ This is where the individual apprenticeship emerges. The apprentice can look aro
 
 # For the mentors
 
-Form the above things, there are a few things that I'd like to tackle from a mentor perspective, that in my view are low-hanging fruit.
-The initial steps into the apprenticeship should made expl
+With the growth of our office, more and more crafters are stepping up to be mentors. 
+That is awesome!
+The drawback: we don't always have experienced co-mentors to support the first-time mentors.
+This has a couple of consequences.
+As mentioned above, the beginning of the apprenticeship has too much variance, while it should probably have _the least variance_ of the entire apprenticeship.
+But it is hard to keep up with how the apprenticeship has evolved since we all started _our_ apprenticeship.
+The tutorial should streamline this without coming across as a tedious checklist that needs to be run down.
 
-// Add more here
+Another big advantage of collecting and codifying our shared experiences is that we can build upon each other.
+London at some point started a trend of small "manager" apps, like PokéMan or WeatherMan. 
+These were built with specific learnings in mind, like getting exposure to database or file storage or asynchronous programming in JavaScript with React.
+I am sure there are a lot more interesting exercises in the other offices that we haven't heard of. 
+Mentors looking for creative ways to reinforce a lesson could search through the modules to find just the right exercise.
+
 
 # For apprentices
 
