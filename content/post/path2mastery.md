@@ -1,5 +1,5 @@
 ---
-title: "DRAFT: Path 2 Mastery App"
+title: "Path to Mastery App"
 date: 2018-05-15T21:48:33+01:00
 categories: []
 tags: [personal, idea]
@@ -135,7 +135,7 @@ The challenge for mentors will be in connecting our exercises with clear outcome
 # Embedding it in our culture
 
 A tool that does not find its niche in our existing culture will last more than a few days.
-So it’s worth me theorizing how Path 2 Mastery would fit into our current landscape.
+So it’s worth me theorizing how Path to Mastery would fit into our current landscape.
 I don’t think it should replace Artisan, writing and estimating stories, or Zagakus.
 All three of these play a key role in instilling our values and keeping our apprenticeship closely resembling client work (stories + estimating).
 The way I imagine the workflow would be to break a module into multiple stories in Artisan during the apprenticeship and marking a module as done when both mentor and apprentice agree that the outputs have been delivered and the outcomes are shown.
