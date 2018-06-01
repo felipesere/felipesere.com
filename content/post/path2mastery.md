@@ -28,11 +28,11 @@ Before we go into what I feel we could do better, it is important to understand 
 For apprentices, a big issue is the anxiety due to the uncertainty they perceive around the apprenticeship.
 This revolves around questions like “Am I learning fast enough?” or “What are milestones I need to complete before my graduation?” and “What will I be doing next week?” There is also uncertainty in the individual tasks and exercises they are asked to do.
 I have often heard apprentices wondering what they should really be getting from an exercise, or complaining that they don’t really know what they are supposed to do.
-My hunch is that a degree of cargo culting from us mentors and a broader range of experiences (from career changers without programming background to professional engineers with 2-3 years experience) is reinforcing this feeling of anxiety.
+My hunch is that a degree of cargo culting from us mentors and a broader range of experiences (from career changers without programming background to professional engineers with 10 years experience) is reinforcing this feeling of anxiety.
 
-For us mentors, life isn’t any easier.
-We need to balance the everyday client struggles with finding time and space to mentor our apprentice(s).
-More and more of our mentors are now onsite at a client engagement and as such, weekly check-ins are done either remotely, later in the day, or crammed into a busy Friday afternoon.
+For mentors, life isn’t any easier.
+They need to balance the everyday client struggles with finding time and space to mentor the apprentice(s).
+More and more of our mentors are now on site at a client engagement and as such, weekly check-ins are done either remotely, later in the day, or crammed into a busy Friday afternoon.
 This leaves very little leeway to find the right exercise that will push and challenge the apprentices to gain new insights.
 Unless there is some strong will, there is a good chance mentors will fall back to exercises and reading material from their own apprenticeship.
 There is a current trend to try more “application centric” exercises rather than varying constraints on the same problem, and we should capitalize on these ideas.
@@ -50,7 +50,7 @@ During the apprenticeship, there are a few things we need to keep in balance:
 * We have a common set of values that we want all our graduating crafters to live up to.
   Throughout their apprenticeship, we need to instill these shared values, no matter what path they take.
 
-A lot of this implicit today.
+A lot of this is implicit today.
 For example, it takes apprentices weeks to appear on our website, because it’s considered more of a side-task of… the mentors? the apprentice? Or the purpose of having apprentices write blog posts is mostly implied.
 Sometimes it’s to improve the writing skills, sometimes it’s to emulate client communication, and often it’s to allow the mentor gain insight into the apprentice’s thinking.
 
@@ -74,7 +74,7 @@ This would be the place where we ensure the apprentice has all the tools, is awa
 
 Following on from the initial tutorial, the mentor and apprentice will be presented with a buffet-like set of modules they can choose from to tackle.
 This is where the individual apprenticeship emerges.
-The apprentice can look around spot things they’d be keen on trying, while the mentor can fall back on a large pool of exercises.
+The apprentice can look around and spot things they’d be keen on trying, while the mentor can fall back on a large pool of exercises.
 
 
 # For the mentors
@@ -134,9 +134,14 @@ The challenge for mentors will be in connecting our exercises with clear outcome
 
 # Embedding it in our culture
 
-A tool that does not find its niche in our existing culture will last more than a few days.
+A tool that does not find its niche in our existing culture will not last more than a few days.
 So it’s worth me theorizing how Path to Mastery would fit into our current landscape.
 I don’t think it should replace Artisan, writing and estimating stories, or Zagakus.
 All three of these play a key role in instilling our values and keeping our apprenticeship closely resembling client work (stories + estimating).
 The way I imagine the workflow would be to break a module into multiple stories in Artisan during the apprenticeship and marking a module as done when both mentor and apprentice agree that the outputs have been delivered and the outcomes are shown.
 There is enough wiggle-room there to allow the pair to individualize as needed.
+
+Overall, I believe an app like Path To Mastery would help in making the apprenticeship less stressful for apprentices and mentors alike, by making expectations more explicit.
+Mentors will gain access to a larger set of experiences and be guided in the initial phase of the apprenticeship.
+
+
