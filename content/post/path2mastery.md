@@ -116,7 +116,7 @@ It’s perfectly fine (and expected!) for multiple exercises to have the same ou
 
 Having multiple different modules cover the same output at different levels will allow mentors to select the right tasks (and their order) to give an apprentice the highest chance of success.
 This is particularly important when we consider that we have apprentices with varying degrees of prior experience.
-There is a very interesting SOLO Taxonomy from John B. Biggs and Kevin F. Collings ![book](https://books.google.co.uk/books?hl=en&lr=&id=xUO0BQAAQBAJ&oi=fnd&pg=PP1&dq=Evaluating+the+Quality+of+Learning:+The+SOLO+Taxonomy&ots=aplyiVHpHa&sig=ByFlHTwvUQMWVEBWF_TfyLx11mE#v=onepage&q=Evaluating%20the%20Quality%20of%20Learning%3A%20The%20SOLO%20Taxonomy&f=false)
+There is a very interesting SOLO Taxonomy from John B. Biggs and Kevin F. Collings [book](https://books.google.co.uk/books?hl=en&lr=&id=xUO0BQAAQBAJ&oi=fnd&pg=PP1&dq=Evaluating+the+Quality+of+Learning:+The+SOLO+Taxonomy&ots=aplyiVHpHa&sig=ByFlHTwvUQMWVEBWF_TfyLx11mE#v=onepage&q=Evaluating%20the%20Quality%20of%20Learning%3A%20The%20SOLO%20Taxonomy&f=false)
 that describes different levels of learning outcomes.
 Attached to each of the 5 levels are a series of verbs such as “identify”, “enumerate”, “describe”, “compare”, “relate”, “generalize”, or “hypothesize”. Each of the levels represents an increasing form of learning, from “Unistructural” all the way up to “Extended abstract”.
 
