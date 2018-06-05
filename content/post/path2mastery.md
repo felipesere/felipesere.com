@@ -26,7 +26,7 @@ And yes, this will be yet-another-app.
 Before we go into what I feel we could do better, it is important to understand some of the shortcomings that I’ve observed.
 
 For apprentices, a big issue is the anxiety due to the uncertainty they perceive around the apprenticeship.
-This revolves around questions like “Am I learning fast enough?” or “What are milestones I need to complete before my graduation?” and “What will I be doing next week?” There is also uncertainty in the individual tasks and exercises they are asked to do.
+This revolves around questions like “Am I learning fast enough?” or “What are the milestones I need to complete before my graduation?” and “What will I be doing next week?” There is also uncertainty in the individual tasks and exercises they are asked to do.
 I have often heard apprentices wondering what they should really be getting from an exercise, or complaining that they don’t really know what they are supposed to do.
 My hunch is that a degree of cargo culting from us mentors and a broader range of experiences (from career changers without programming background to professional engineers with 10 years experience) is reinforcing this feeling of anxiety.
 
