@@ -41,13 +41,13 @@ There is a current trend to try more “application centric” exercises rather 
 
 During the apprenticeship, there are a few things we need to keep in balance:
 
-* Everybody should have the same introduction to the company and apprenticeship.
+- Everybody should have the same introduction to the company and apprenticeship.
   This includes things like getting an email address, signing into Slack, being introduced to everybody, and signing our employee handbook and code of conduct.
 
-* Every apprentice is different, comes from a different background, and has a different trajectory.
+- Every apprentice is different, comes from a different background, and has a different trajectory.
   Realizing this means that we need to be able to tailor each apprenticeship to the apprentice and their learning style.
 
-* We have a common set of values that we want all our graduating crafters to live up to.
+- We have a common set of values that we want all our graduating crafters to live up to.
   Throughout their apprenticeship, we need to instill these shared values, no matter what path they take.
 
 A lot of this is implicit today.
@@ -57,7 +57,6 @@ Sometimes it’s to improve the writing skills, sometimes it’s to emulate clie
 The best way I can see this working is in making more and more of the apprenticeship explicit, somehow codified.
 The trick will be to make it codified, but flexible.
 Broadly applicable, but custom for each apprentice.
-
 
 # The rough outline
 
@@ -75,7 +74,6 @@ This would be the place where we ensure the apprentice has all the tools, is awa
 Following on from the initial tutorial, the mentor and apprentice will be presented with a buffet-like set of modules they can choose from to tackle.
 This is where the individual apprenticeship emerges.
 The apprentice can look around and spot things they’d be keen on trying, while the mentor can fall back on a large pool of exercises.
-
 
 # For the mentors
 
@@ -103,8 +101,8 @@ A path that you can come back to, to see what you have accomplished and relate b
 The structure of each module should also help apprentices better understand what is expected of them, without giving away solutions.
 The expectation is set by very explicitly stating two things on each module:
 
-* the output: what tangible things the apprentice is expected to deliver. Maybe some features, or some specific code, or a blog post, or a talk etc…
-* the learning outcome: What is the apprentice expected to learn from this module. These should be expressed in high-level verbs and relate to our values and principles.
+- the output: what tangible things the apprentice is expected to deliver. Maybe some features, or some specific code, or a blog post, or a talk etc…
+- the learning outcome: What is the apprentice expected to learn from this module. These should be expressed in high-level verbs and relate to our values and principles.
 
 These outputs and outcomes are where most of our effort as mentors should be.
 
@@ -120,15 +118,11 @@ There is a very interesting SOLO Taxonomy from John B. Biggs and Kevin F. Collin
 that describes different levels of learning outcomes.
 Attached to each of the 5 levels are a series of verbs such as “identify”, “enumerate”, “describe”, “compare”, “relate”, “generalize”, or “hypothesize”. Each of the levels represents an increasing form of learning, from “Unistructural” all the way up to “Extended abstract”.
 
-Having defined outputs on tasks will make it easier for apprentices with a tendency for a surface-learning style to understand what they need to deliver.
-Making the module outcomes explicit will encourage apprentices with a deep-learning tendency to connect the current module other modules and existing knowledge.
-Explicit outcomes will also allow apprentice with less experience to latch onto a common thread (e.g. refactorable code, or expressive tests) across multiple modules.
-
-{{< figure src="/images/solo-hierarchy.jpg" caption="SOLO hierarchy showing different levels of learning" >}}
-
 Having defined _outputs_ on tasks will make it easier for apprentices with a tendency for a surface-learning style to understand what they need to deliver.
 Making the module _outcomes_ explicit will encourage apprentices with a deep-learning tendency to connect the current module other modules and existing knowledge.
 Explicit _outcomes_ will also allow apprentice with less experience to latch onto a common thread (e.g. refactorable code, or expressive tests) across multiple modules.
+
+{{< figure src="/images/solo-hierarchy.jpg" caption="SOLO hierarchy showing different levels of learning" >}}
 
 The challenge for mentors will be in connecting our exercises with clear outcomes that are expressed as some of our high-level principles and values.
 
@@ -143,5 +137,3 @@ There is enough wiggle-room there to allow the pair to individualize as needed.
 
 Overall, I believe an app like Path To Mastery would help in making the apprenticeship less stressful for apprentices and mentors alike, by making expectations more explicit.
 Mentors will gain access to a larger set of experiences and be guided in the initial phase of the apprenticeship.
-
-
